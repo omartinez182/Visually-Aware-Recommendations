@@ -15,3 +15,12 @@ To run the code locally, first clone this repository and install the requirement
 git clone https://github.com/omartinez182/Visually-Aware-Recommendations.git && cd Visually-Aware-Recommendations
 pip install -r requirements.txt
 ```
+
+
+## Results
+
+**Tradesy VBPR Experiment Results**
+
+<img width="395" alt="image" src="https://user-images.githubusercontent.com/63601717/165853906-7d5fe3ed-79f8-44b4-bb7b-b34d24bcf7e4.png">
+
+**Amazon Clothing VBPR Experiment Results**
