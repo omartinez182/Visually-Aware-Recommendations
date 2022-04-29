@@ -20,7 +20,7 @@ pip install -r requirements.txt
 ```bash
 $ python3 run_experiment.py
 ```
-The defualt dataset is the Amazon Clothing, but you can pass the dataset as an argument, so if you'd like to run the experiment with the Tradesy dataset you can use the following:
+The default dataset is the Amazon Clothing, but you can pass the dataset as an argument, so if you'd like to run the experiment with the Tradesy dataset you can use the following:
 
 ```bash
 $ python3 run_experiment.py --dataset tradesy
