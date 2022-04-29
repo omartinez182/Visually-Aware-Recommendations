@@ -1,6 +1,6 @@
 import argparse
 import cornac
-from cornac.datasets import amazon_clothing
+from data import amazon_clothing
 from cornac.datasets import tradesy
 from cornac.data import ImageModality
 from cornac.eval_methods import RatioSplit
