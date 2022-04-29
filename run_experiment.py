@@ -23,7 +23,7 @@ def load_data(dataset):
     Function to load the data from the specified arg.
     """
     fn = dict_names[dataset]
-    return fn()
+    return fn
 
 def main():
     """
