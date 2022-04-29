@@ -22,8 +22,8 @@ def load_data(dataset):
     """
     Function to load the data from the specified arg.
     """
-    fn = dict_names[dataset]
-    return fn
+    data_ob = dict_names[dataset]
+    return data_ob
 
 def main():
     """
