@@ -25,6 +25,9 @@ The default dataset is the Amazon Clothing, but you can pass the dataset as an a
 ```bash
 $ python3 run_experiment.py --dataset tradesy
 ```
+Here's an example of how to execute the script using Google [Colab](https://colab.research.google.com/drive/1tsawUOF5qRAHwYhSEd8MRWHtthel6A3B?usp=sharing), for this make sure that you enable the GPU under ```Runtime``` -> ```Change runtime type``` -> ```Hardware accelerator``` -> ```GPU```.
+
+**NOTE:** Because these datasets are fairly large, sometimes the download process fails, if that happens, try to run the script a few times until it successfully downloads the data.
 
 ## Results
 
