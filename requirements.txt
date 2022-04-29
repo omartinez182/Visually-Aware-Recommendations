@@ -1,1 +1,2 @@
-cornac
+Cython
+git+https://github.com/omartinez182/cornac.git
