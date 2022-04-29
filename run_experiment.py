@@ -52,7 +52,6 @@ def main(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--dataset',
-                        type=str,
                         default=amazon_clothing)
     args = parser.parse_args()
     main(args)
