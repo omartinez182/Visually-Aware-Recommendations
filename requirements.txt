@@ -1,2 +1,2 @@
 Cython
-git+https://github.com/omartinez182/cornac.git
+git+https://github.com/omartinez182/cornac.git@master
