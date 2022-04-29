@@ -35,13 +35,13 @@ The results of the experiment are saved as a log file under:
 
 ```data``` -> ```output``` -> ```model_eval```.
 
-**Tradesy VBPR Experiment Results**
+**Tradesy Experiment Results**
 
-<img width="395" alt="image" src="https://user-images.githubusercontent.com/63601717/165853906-7d5fe3ed-79f8-44b4-bb7b-b34d24bcf7e4.png">
+<img width="378" alt="Tradesy Experiment Results" src="https://user-images.githubusercontent.com/63601717/165890615-d94dae42-b1a1-4bac-9593-e337ab7999db.png">
 
-**Amazon Clothing VBPR Experiment Results**
+**Amazon Clothing Experiment Results**
 
-<img width="378" alt="image" src="https://user-images.githubusercontent.com/63601717/165889647-05034e1d-dbc6-4432-b8fc-e9130523d6b2.png">
+<img width="378" alt="Amazon Clothing Experiment Results" src="https://user-images.githubusercontent.com/63601717/165889647-05034e1d-dbc6-4432-b8fc-e9130523d6b2.png">
 
 ## Citations
 ```
