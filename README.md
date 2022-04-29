@@ -1,7 +1,7 @@
 # Visually-Aware-Recommendations
  
 
-In this repository we try to experiment and provide some benchmarks for different recommendation algorithms, mainly we are interested in benchmarking the [VBPR](https://arxiv.org/pdf/1510.01784.pdf) & [CausalRec](https://arxiv.org/pdf/2107.02390.pdf), and compared their performance with the BPR, MM-MF, and MostPop recommenders.
+In this repository we run two experiments and provide some benchmarks for different recommendation algorithms, mainly we are interested in benchmarking the [VBPR](https://arxiv.org/pdf/1510.01784.pdf) & [CausalRec](https://arxiv.org/pdf/2107.02390.pdf) recommenders and compare their performance with the BPR, MM-MF, and MostPop recommenders.
 
 We use two datasets to do this, the [Tradesy](http://jmcauley.ucsd.edu/data/tradesy/) and the [Amazon Clothing](https://nijianmo.github.io/amazon/index.html) datasets, the latter can be segmented across different categories.
 
