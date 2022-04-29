@@ -9,7 +9,7 @@ from cornac.models import MostPop, MMMF, BPR, VBPR, CausalRec
 
 def main(args):
     """
-    Experiment to compare the performance of the MostPop, MMMF, 
+    Experiment to compare the performance of the MostPop, 
     BPR, VBPR, and CausalRec recommenders on either the Tradesy or
     the Amazon Clothing datasets.
     """
@@ -36,8 +36,7 @@ def main(args):
 
     # Instantiate models using similar parameters to the VBPR paper.
     models = [MostPop(),
-          MMMF(k=10, learning_rate=1, seed=SEED), # k are the latent factors 
-          BPR(k=10, learning_rate=0.1, seed=SEED),
+          BPR(k=10, learning_rate=0.1, seed=SEED), # k are the latent factors 
           VBPR(k=10, k2=10, learning_rate=0.1, seed=SEED, use_gpu=True),
           CausalRec(k=10, k2=10, n_epochs=1, learning_rate=0.01,
                     mean_feat=features.mean(axis=0), tanh=1, use_gpu=True, seed=SEED)
