@@ -40,3 +40,17 @@ The results of the experiment are saved as a log file under:
 <img width="395" alt="image" src="https://user-images.githubusercontent.com/63601717/165853906-7d5fe3ed-79f8-44b4-bb7b-b34d24bcf7e4.png">
 
 **Amazon Clothing VBPR Experiment Results**
+
+
+## Citations
+```
+@article{salah2020cornac,
+  title={Cornac: A Comparative Framework for Multimodal Recommender Systems},
+  author={Salah, Aghiles and Truong, Quoc-Tuan and Lauw, Hady W},
+  journal={Journal of Machine Learning Research},
+  volume={21},
+  number={95},
+  pages={1--5},
+  year={2020}
+}
+```
