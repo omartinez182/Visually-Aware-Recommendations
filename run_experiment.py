@@ -1,11 +1,14 @@
 import argparse
 import cornac
-from data import amazon_clothing
+import sys
+#from cornac.datasets import amazon_clothing
 from cornac.datasets import tradesy
 from cornac.data import ImageModality
 from cornac.eval_methods import RatioSplit
 from cornac.models import MostPop, MMMF, BPR, VBPR, CausalRec
-
+sys.path.insert(1, 'data/')
+import amazon_clothing
+sys.path.remove(1, 'data/')
 
 def main(args):
     """
