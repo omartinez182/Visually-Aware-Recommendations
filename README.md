@@ -41,7 +41,7 @@ The results of the experiment are saved as a log file under:
 
 **Amazon Clothing VBPR Experiment Results**
 
-
+<img width="378" alt="image" src="https://user-images.githubusercontent.com/63601717/165889647-05034e1d-dbc6-4432-b8fc-e9130523d6b2.png">
 
 ## Citations
 ```
