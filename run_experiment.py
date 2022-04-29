@@ -7,7 +7,25 @@ from cornac.eval_methods import RatioSplit
 from cornac.models import MostPop, BPR, VBPR, CausalRec
 
 
-def main(args):
+def create_parser():
+    """
+    Function to map dataset names to function objects.
+    """
+    parser = argparse.ArgumentParser(description='add dataset')
+    parser.add_argument('--dataset', help='pass dataset name to be used', 
+          choices=dict_names)
+    return parser
+
+dict_names = {'amazon_clothing': amazon_clothing, 'tradesy': tradesy} 
+
+def load_data(dataset):
+    """
+    Function to load the data from the specified arg.
+    """
+    fn = dict_names[dataset]
+    return fn()
+
+def main():
     """
     Experiment to compare the performance of the MostPop, 
     BPR, VBPR, and CausalRec recommenders on either the Tradesy or
@@ -15,10 +33,12 @@ def main(args):
     """
     SEED = 42
     VERBOSE = True
+    
+    args = create_parser().parse_args() 
 
     # Load the Amazon data
-    feedback = args.dataset.load_feedback()
-    features, item_ids = args.dataset.load_visual_feature()
+    feedback = load_data(args.dataset).load_feedback()
+    features, item_ids = load_data(args.dataset).load_visual_feature()
     
     # Visual features
     item_image_modality = ImageModality(features=features, ids=item_ids, normalized=True)
@@ -50,8 +70,4 @@ def main(args):
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--dataset',
-                        default=amazon_clothing)
-    args = parser.parse_args()
     main(args)
