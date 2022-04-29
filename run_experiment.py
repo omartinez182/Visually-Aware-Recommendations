@@ -13,7 +13,7 @@ def create_parser():
     """
     parser = argparse.ArgumentParser(description='add dataset')
     parser.add_argument('--dataset', help='pass dataset name to be used', 
-          choices=dict_names)
+          choices=dict_names, default=amazon_clothing)
     return parser
 
 dict_names = {'amazon_clothing': amazon_clothing, 'tradesy': tradesy} 
@@ -70,4 +70,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main(args)
+    main()
